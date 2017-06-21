@@ -15,11 +15,11 @@ $("span:even").css('color', 'red');
 var paragraphs = $('p'); // wybieramy elementy <p>
 paragraphs.each(function(index, element) { // do każdego <p> przypisujemy funkcję...
 
-    var button = '<button class="btn" data-tmp="' + index + '">Click me</button>' //... która dodaje button 
+    var button = '<button class="btn" data-tmp="' + index + '">Click me</button>'; //... która dodaje button 
     $(element).append(button) 
 
 });
 
 $("button").click(function(){
-	alert($(this).attr("data-tmp"));
+    alert($(this).attr("data-tmp"));
 });
