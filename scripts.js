@@ -21,5 +21,5 @@ paragraphs.each(function(index, element) { // do każdego <p> przypisujemy funkc
 });
 
 $("button").click(function(){
-	alert($(this).attr("data-tmp"));
+    alert($(this).attr("data-tmp"));
 });
